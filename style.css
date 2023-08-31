@@ -1,0 +1,29 @@
+/*Pseudoelemento*/
+
+*{
+    margin: 0;
+    position: relative;
+}
+header::before {
+    content: '';
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: block;
+    
+}
+
+
+h1 {
+    color:rgb(0, 0, 0);
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
+    font-size: 3rem;
+    
+}
+
+span {
+    color: rgb(194, 21, 21);
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
+    font-size: 2rem;
+    
+}
